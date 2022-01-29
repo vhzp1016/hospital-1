@@ -1,0 +1,196 @@
+body {
+	font-family: poppins;
+	margin: 0;
+	padding: 0;
+}
+/*SECCCION SERVICIOS*/
+
+.contenedor-servicios {
+	max-width: 1280px;
+	width: 100%;
+	margin: auto;
+  
+}
+
+li {
+	list-style: none;
+	margin-right: 20px;
+  
+ }
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  
+}
+
+.lista {
+	display: flex;
+  font-size: 18px;
+  font-style: helvetica;
+ 
+}
+
+.procesos  {
+	text-align: center;
+	margin-top: 150px;
+  font-weight: normal;
+  
+}
+
+h1 {
+  font-weight: normal;
+ }
+
+a {
+	font-size: 14px;
+	background: #5cb8ff;
+	padding:  20px 30px 20px 30px;
+	color: white;
+  border-radius: 15px;
+}
+
+header {
+	background: url("https://icap.ac.cr/wp-content/uploads/2020/06/salud-2-02-scaled-570x415xct.jpg");
+	height: 100vh;
+	background-size: cover;
+  border-radius: 30px;
+}
+
+/* TECNOLOGIA EN SALUD*/
+
+h3 {
+	text-align: center;
+	font-size: 55px;
+	font-weight: normal;
+}
+
+.tecnologia-salud {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.tecnologia-contenedor-y-boton {
+	width: 40%;
+
+}
+
+.tecnologia-contenedor-y-boton p {
+	font-size: 22px;
+  
+}
+
+/* SERVICIOS*/
+
+.contenedor-servicios {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.servicio {
+	width: 25%;
+	padding: 50px 38px 50px 38px;
+	border-radius: 10px;
+	margin-bottom: 40px;
+	color: ;
+	
+}
+
+.violeta {
+	background:  #f5711b;
+}
+
+.azul {
+	background:  #1982b6;
+}
+
+.oro {
+	background:  #f5711b;
+}
+
+.servicio h4 {
+	font-size: 30px;
+	margin: 0;
+  text-align: center;
+}
+
+.servicio p {
+	font-size: 18px;
+	height: 160px;
+}
+
+/* INGENIERIA CLINICA*/
+
+.owl-clinica {
+	text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* INGENIERIA HOSPITALARIA*/
+
+.ing-hospi {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.ing-hospi h4 {
+	margin: 0;
+	font-size: 20px;
+}
+
+.ing-hospi p {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.clinica-segura {
+	width: 24%;
+}
+
+.clinica-segura h4{
+	font-size: 18px;
+}
+
+.clinica-segura p {
+	font-size: 18px;
+  font-style: arial;
+}
+
+/* FINAL*/
+
+#final-clinic {
+	background: linear-gradient(rgba(84, 93, 220, .94), rgba(96, 171, 245, .9));
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+#final-clinic h3 {
+	font-size: 35px;
+	color: black;
+	margin-bottom: 40px;
+}
+
+#final-clinic a {
+	padding: 15px 45px 15px 45px;
+	transition: 1s;
+  color: black;
+
+}
+
+#final-clinic a:hover {
+	transition: 1s;
+	transform: scale(1.4);
+	display: inline-block;
+}
+
+@media (max-width: 800px) {
+	/* Se va a aplicar cuando el maximo de ancho sea 480px */
+}
+	
+
+
